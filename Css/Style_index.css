@@ -77,6 +77,7 @@ header h1{
 }
 .footer{
     padding: 10px;
+    display:block
 }
 .footer span{
     color:#999999; 

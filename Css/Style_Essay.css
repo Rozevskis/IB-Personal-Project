@@ -1,0 +1,27 @@
+.container{
+    padding: 0 100px 0 20px;
+    
+  }
+  .w3-sidebar {
+    z-index: 3;
+    width: 250px;
+    top: 43px;
+    bottom: 0;
+    height: inherit;
+    background-color: #cccccc!important;
+  }
+
+  body h1{font-family: 'Times New Roman', serif; padding: 0px;
+  }
+    .footer{
+      background-color:#cccccc;
+    padding: 10px;
+    text-align: center;
+    color:#FFFBF2 ;
+    
+}
+.footer span{
+    color:#999999; 
+    font-weight: bold;
+}
+body{background-color: #F1F1F1;}
