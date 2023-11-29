@@ -13,14 +13,16 @@
 
   body h1{font-family: 'Times New Roman', serif; padding: 0px;
   }
-    .footer{
-      background-color:#cccccc;
+
+  footer {
+    text-align: Center;
+    background-color: #cccccc;
+    color: white;
+    height: 4vh;
+    font-size: 1.5vh;
     padding: 10px;
-    text-align: center;
-    color:#FFFBF2 ;
-    
-}
-.footer span{
+  } 
+  footer span{
     color:#999999; 
     font-weight: bold;
 }

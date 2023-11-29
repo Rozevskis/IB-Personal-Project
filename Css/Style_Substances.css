@@ -15,11 +15,16 @@ a{
 }
 
 footer {
-  font: calibri;
   text-align: Center;
-  padding: 20px;
   background-color: #cccccc;
   color: white;
+  height: 4vh;
+  font-size: 1.5vh;
+  padding: 10px;
+} 
+footer span{
+  color:#999999; 
+  font-weight: bold;
 }
 .myDiv {
   font-size: 20px;

@@ -5,27 +5,52 @@
     bottom: 0;
     height: inherit;
   }
+  body{
+    background-color: #fafafa;
+  }
   footer {
-    font: calibri;
     text-align: Center;
-    padding: 20px;
     background-color: #cccccc;
     color: white;
-  } 
-  h2 {
-  padding: px;
-  text-align: Center;}
-  img {padding: 35px;}
-  body h1,h2{font-family: 'Times New Roman', serif; padding: 0px;}
-  .container{
-    padding: 0 100px 0 20px;
-    
-  }
-  
-.footer{
+    height: 4vh;
+    font-size: 1.5vh;
     padding: 10px;
-}
-.footer span{
+  } 
+  footer span{
     color:#999999; 
     font-weight: bold;
 }
+  h2 {
+  text-align: Center;}
+  img {width: 100%;
+    height: 80%;
+  }
+  body h1,h2{font-family: 'Times New Roman', serif; padding: 0px;}
+  .container{
+  background-color: white;    
+
+     padding: 20px;
+    display: inline-block;
+    box-shadow:0 3px 7px 0 rgba(0,0,0,0.3);
+    width: 50vm;
+    height: 50vh;
+    margin: 20px;
+  }
+  
+
+
+.top{
+  margin-left: 250px;
+}
+
+@media(max-width:1000px){
+  .container{
+    width: 30vm;
+    height: 30vh;
+    
+  }
+.top{
+  margin-left: 50px;
+}
+}
+/* When on mobile rotated horizontal pictures come out of the div */
