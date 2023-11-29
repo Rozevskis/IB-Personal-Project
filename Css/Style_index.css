@@ -65,7 +65,7 @@ header h1{
 .Comments span{
    font-weight: bold;
 }
-/* Add smaller picture  */
+
 
 .button{
     padding:12px 24px;
@@ -81,7 +81,8 @@ header h1{
     margin: 16px;
 }
 .container{
-    padding:0.01em 16px
+    padding:0.01em 16px;
+    max-width: 1000px;
 }
 .footer{
     padding: 10px;
