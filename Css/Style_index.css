@@ -26,23 +26,37 @@ header{
         font-size: 40px;
 
         
-    }}
+    }
+    .sidebar{
+        width:33.33333%;
+    }
+
+}
 @media(max-width:600px){
     header{
-        font:size 30px;
+        font-size: 20px;
+    }
+
+    .Comments,.picture{
+        display: none;
         
     }
+
+    
+     
 }
+@media(max-width:994px){
+    .sidebar{
+        width: 50%;
+        
+     }
+}
+
 
 header h1{
     font-weight: bold;
 }
-@media(max-width:600px){
-    .Comments{
-        display: none;
-        
-    }
-}
+
 .Comments{
     padding: 12px 24px;
     float: right;
@@ -52,13 +66,7 @@ header h1{
    font-weight: bold;
 }
 /* Add smaller picture  */
-@media(max-width:600px){
-    .picture{
-        display: none;
-        
-        
-    }
-}
+
 .button{
     padding:12px 24px;
     background-color: white;
@@ -83,3 +91,28 @@ header h1{
     color:#999999; 
     font-weight: bold;
 }
+
+.portrait{
+    margin:16px
+    
+}
+.posts{
+    margin:16px;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)
+}
+.white{
+    color:#000;
+    background-color:#fff;
+}
+.hoverable li:hover{background-color:#ccc;
+    
+}
+ul{list-style-type:none;
+    margin:0;
+    padding: 0;
+    border-bottom:1px solid #ddd}
+.padding-16{
+    padding: 16px;
+}
+.sidebar{float:left;
+    display: inline-block;}
